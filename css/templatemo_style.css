@@ -10,10 +10,89 @@ html, body {
 	font-family: 'Raleway', "Trebuchet MS", Arial, Helvetica, sans-serif; 
 	padding: 0px; 
 	margin: 0px; 
-	color: #8a8a8a;
+	background-color: #e4cba4;
 }
 
-a {
+.templatemo_partner	{ padding: 80px 0px;}
+
+.header{
+	font-weight: 600;
+	font-size: 100px;
+	font-style: oblique;
+	text-align: center;
+	margin-top: 20%;
+	margin-bottom: 10%;
+}
+
+.logo1, .logo2, .logo3, .logo4{
+	width: 500px;
+	height: 500px;
+}
+
+.logos{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+
+}
+
+.text{
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	margin-left: 25%;
+	margin-top: 4%;
+}
+
+
+
+
+#prev {
+  width: 35px;
+  height: 50px;
+  position: absolute;
+  top: -30%;
+  left:0;
+  text-indent: -9999px;
+  background: url(../images/prev.png)0px -50px no-repeat;
+}
+
+#next {
+  width: 35px;
+  height: 50px;
+  position: absolute;
+  top: -30%;
+  right: 0;
+  text-indent: -9999px;
+  background: url(../images/next.png)0px -50px no-repeat;
+}
+
+#prev:hover, #next:hover {
+  background-position: 0px 0px;
+}
+
+.partnerWrap {
+  margin: 50px 0;
+  position: relative;
+}
+.slideshow { 
+  margin: auto;
+  width: 80%;
+}
+.slideshow img { padding: 2px; }
+.templatemo_clientwrapper	{
+	margin: 0 auto;
+	float: none;
+	width: 500px;
+}
+
+
+
+
+/* a {
 	color: #00ACE9;
 }
 
@@ -353,50 +432,11 @@ img {
 }
 .templatemo_blogtext span.right	a:hover i	{
 	color: #72b842;
-}
+} */
 
-.templatemo_partner	{ padding: 80px 0px;}
 
-#prev {
-  width: 35px;
-  height: 50px;
-  position: absolute;
-  top: -30%;
-  left:0;
-  text-indent: -9999px;
-  background: url(../images/prev.png)0px -50px no-repeat;
-}
 
-#next {
-  width: 35px;
-  height: 50px;
-  position: absolute;
-  top: -30%;
-  right: 0;
-  text-indent: -9999px;
-  background: url(../images/next.png)0px -50px no-repeat;
-}
-
-#prev:hover, #next:hover {
-  background-position: 0px 0px;
-}
-
-.partnerWrap {
-  margin: 50px 0;
-  position: relative;
-}
-.slideshow { 
-  margin: auto;
-  width: 80%;
-}
-.slideshow img { padding: 2px; }
-.templatemo_clientwrapper	{
-	margin: 0 auto;
-	float: none;
-	width: 500px;
-}
-
-.templatemo_clientimage {
+/* .templatemo_clientimage {
 	float: left;
 	margin-left: 10px;
 	margin-top: 80px;
@@ -566,7 +606,7 @@ ul.list_bullet li a { color: #555; font-weight: normal; text-decoration: none }
 ul.list_bullet li a:hover { color: #555 }
 
 ul.footer_gallery li { display: block; float: left; margin: 0 5px 5px 0 }
-ul.footer_gallery li img { }
+ul.footer_gallery li img { } */
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
