@@ -10,89 +10,10 @@ html, body {
 	font-family: 'Raleway', "Trebuchet MS", Arial, Helvetica, sans-serif; 
 	padding: 0px; 
 	margin: 0px; 
-	background-color: #e4cba4;
+	color: #8a8a8a;
 }
 
-.templatemo_partner	{ padding: 80px 0px;}
-
-.header{
-	font-weight: 600;
-	font-size: 100px;
-	font-style: oblique;
-	text-align: center;
-	margin-top: 20%;
-	margin-bottom: 10%;
-}
-
-.logo1, .logo2, .logo3, .logo4{
-	width: 500px;
-	height: 500px;
-}
-
-.logos{
-	display: flex;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
-
-}
-
-.text{
-	font-weight: bold;
-	font-size: 50px;
-	text-align: center;
-	width: 50%;
-	display: flex;
-	justify-content: center;
-	margin-left: 25%;
-	margin-top: 4%;
-}
-
-
-
-
-#prev {
-  width: 35px;
-  height: 50px;
-  position: absolute;
-  top: -30%;
-  left:0;
-  text-indent: -9999px;
-  background: url(../images/prev.png)0px -50px no-repeat;
-}
-
-#next {
-  width: 35px;
-  height: 50px;
-  position: absolute;
-  top: -30%;
-  right: 0;
-  text-indent: -9999px;
-  background: url(../images/next.png)0px -50px no-repeat;
-}
-
-#prev:hover, #next:hover {
-  background-position: 0px 0px;
-}
-
-.partnerWrap {
-  margin: 50px 0;
-  position: relative;
-}
-.slideshow { 
-  margin: auto;
-  width: 80%;
-}
-.slideshow img { padding: 2px; }
-.templatemo_clientwrapper	{
-	margin: 0 auto;
-	float: none;
-	width: 500px;
-}
-
-
-
-
-/* a {
+a {
 	color: #00ACE9;
 }
 
@@ -136,7 +57,7 @@ img {
   	z-index: 5000;
 }
 
-.templatemo_top	{
+/* .templatemo_top	{
 	position: fixed;
 	z-index: 5000;
 	background: #ffffff;
@@ -150,11 +71,11 @@ img {
 .logo {
 	padding: 0 0 0 20px;
 	width: 190px;
-}
-.mainMenu {
+} */
+/* .mainMenu {
 
-}
-.mainMenu ul {
+} */
+/* .mainMenu ul {
 	float: right;
 	padding-left: 0;
 	margin-bottom: 0;
@@ -282,8 +203,8 @@ img {
     height: 100%;
 	border-radius: 5px;
     background: #72b842;
-    visibility: hidden\0/;
-    opacity: 0\0/;
+    visibility: hidden;
+    opacity: 0;
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
@@ -296,8 +217,8 @@ img {
 }
 
 .project-post:hover .hover-box {
-    visibility: visible;\0/;
-    opacity: 1\0/;
+    visibility: visible;
+    opacity: 1;
     -webkit-transform: rotateY(0deg) scale(1);
     -moz-transform: rotateY(0deg) scale(1);
     -ms-transform: rotateY(0deg) scale(1);
@@ -431,10 +352,55 @@ img {
 	color: #ffffff;
 }
 .templatemo_blogtext span.right	a:hover i	{
-	color: #72b842;
+	color: rgba(113, 184, 66, 0.5);
 } */
 
+.templatemo_partner	{       /*Changed*/
+	margin: 80px 80px 30px;
+	border-radius: 30px;
+	padding: 80px 0px;
+	background-color: rgba(113, 184, 66, 0.6);
+}
 
+#prev {
+  width: 35px;
+  height: 50px;
+  position: absolute;
+  top: -30%;
+  left:0;
+  text-indent: -9999px;
+  background: url(../images/prev.png)0px -50px no-repeat;
+}
+
+#next {
+  width: 35px;
+  height: 50px;
+  position: absolute;
+  top: -30%;
+  right: 0;
+  text-indent: -9999px;
+  background: url(../images/next.png)0px -50px no-repeat;
+}
+
+#prev:hover, #next:hover {
+  background-position: 0px 0px;
+}
+
+.partnerWrap {              /*Changed*/
+  background-color: rgb(255, 255, 255);
+  margin: 50px 0;
+  position: relative;
+}
+.slideshow { 
+  margin: auto;
+  width: 80%;
+}
+.slideshow img { padding: 2px; }
+.templatemo_clientwrapper	{
+	margin: 0 auto;
+	float: none;
+	width: 500px;
+}
 
 /* .templatemo_clientimage {
 	float: left;
@@ -474,9 +440,9 @@ img {
 .templatemo_clientimage	div.mleft2	{ left: 43%;}
 .templatemo_clientimage	div.mleft3	{ left: 46%;}
 .templatemo_clientimage	div.mleft4	{ left: 49%;}
-.templatemo_clientimage	div.mleft5	{ left: 52%;}
+.templatemo_clientimage	div.mleft5	{ left: 52%;} */
 
-.templatemo_maps {
+/* .templatemo_maps {
   margin: 50px 0;
   display: block;
   overflow: hidden;
@@ -484,9 +450,9 @@ img {
 }
 
 .fluid-wrapper {
-    position: relative;
+    position: relative; */
     /* padding-bottom: 56.25%;  16:9 */
-    height: 0;
+    /* height: 0;
 }
 .fluid-wrapper iframe {
     position: absolute;
@@ -589,9 +555,9 @@ img {
 #templatemo_flicker ul li:before {
     content: none;
     vertical-align: middle;
-}
+} */
 
-#templatemo_flicker.ddsmoothmenu ul li a {
+/* #templatemo_flicker.ddsmoothmenu ul li a {
 	width: 55px;
 	height: 55px;
 	margin-right: 0px;
